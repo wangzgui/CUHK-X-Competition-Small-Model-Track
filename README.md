@@ -63,7 +63,7 @@ The competition's local evidence was intentionally limited: the key aligned fusi
 
 1. Read [the manifest](docs/release-manifest.md), then run `scripts/prepare_release.ps1` from this directory. It copies only the selected `.py` sources and never copies data, weights, outputs, or notebooks.
 2. Inspect `git status --ignored` and confirm no ignored artifact was force-added.
-3. Add the exact Kaggle URL for the upstream visual notebook in `docs/credits-and-licensing.md`.
+3. Verify that the upstream visual-notebook attribution in `docs/credits-and-licensing.md` remains intact when making later edits.
 4. The repository's existing MIT license applies only to the original source and documentation contributed here. It does not license CUHK-X data, checkpoints, or third-party components; see [Credits and licensing](docs/credits-and-licensing.md).
 5. Create an empty GitHub repository, initialize this directory, review the diff, and push.
 
