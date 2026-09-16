@@ -1,0 +1,45 @@
+# Competition data and derived assets
+data/
+datasets/
+cache/
+outputs/
+artifacts/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.npy
+*.npz
+*.memmap
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.csv
+!docs/*.csv
+
+# Kaggle and secrets
+kaggle.json
+.kaggle/
+.env
+.env.*
+*.pem
+*.key
+
+# Python/Jupyter local state
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
